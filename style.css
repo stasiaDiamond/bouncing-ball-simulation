@@ -1,0 +1,54 @@
+#ball {
+z-index: 5;
+position: absolute;
+left: 0px;
+top: 200px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background: chartreuse;
+}
+#ball2 {
+z-index: 5;
+position: absolute;
+left: 0px;
+top: 200px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background: pink;
+}
+#ball3 {
+z-index: 5;
+position: absolute;
+left: 0px;
+top: 200px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background: cornflowerblue;
+}
+#ball4 {
+z-index: 2;
+position: absolute;
+left: 0px;
+top: 200px;
+width: 300px;
+height: 300px;
+border-radius: 50%;
+background: salmon;
+}
+
+h1 {
+  color: rgb(255, 0, 111);
+}
+
+p {
+  color: rgb(255, 0, 111);
+  font-size: 20px;
+}
+
+body {
+  background-color: black;
+  
+}
