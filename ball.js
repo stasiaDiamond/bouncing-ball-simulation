@@ -76,3 +76,35 @@ function moveBall() {
 
 // Call the moveBall function every 10ms
 setInterval(moveBall, 10);
+
+// Codio assignment was extremely misleading. Finally got it to work with this:
+// var ball = document.getElementById("ball");
+// var velocity = 100;
+// var positionX = 0;
+// var reverse = false;
+// var positionY = 0; 
+
+// function moveBall() {
+//   var Xmin = 0;
+//   var Xmax = 300;
+//   var Ymin = 0;
+//   var Ymax = 300;
+
+//   if (!reverse) {
+//     positionX += velocity; 
+//     positionY += velocity;
+//   } else {
+//     positionX -= velocity;
+//     positionY -= velocity;
+//   }
+
+//   if (positionX >= Xmax || positionX <= Xmin || 
+//   positionY >= Ymax || positionY <= Ymax) {
+//     reverse = !reverse;
+//   }
+
+//   ball.style.left = positionX + "px";
+//   ball.style.top = positionY + "px";
+// }
+
+// setInterval(moveBall, 100);
