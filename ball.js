@@ -1,4 +1,5 @@
-// go into the DOM (document) and get each ball's id
+// use DOM manipulation to go into the HTML document and grab each ball by its index.html id
+// create variables to use them here in javascript
 var ball = document.getElementById("ball");
 var ball2 = document.getElementById("ball2");
 var ball3 = document.getElementById("ball3");
@@ -86,7 +87,9 @@ setInterval(moveBall, 10);
 
 
 
-// The Codio assignment for this Module activity was extremely misleading and many of my classmates were frustrated. The test suites did not allow many correct functions to pass. It was quite the surprise to find that even copy pasta of the "Solved File" didn't pass the test suites either. 
+// The Codio assignment for this Module 2 activity was particularly misleading and left many of my classmates and me quite frustrated. The test suites did not allow many correct functions to pass. It was quite the surprise to find that even copy pasting the "Solved File" we were given didn't pass the test suites either. 
+
+
 // I finally got it to work with the below code. I hope this helps someone in the future!
 
 
